@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+}
+
+.page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.calculator{
+
+    display: flex;
+    height: 500px;
+    width: 500px;
+    background-color: black;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+
+
+.display{
+    align-self: center;
+    height: 50px;
+    width: 400px;
+    background-color: white;
+    border: 3px solid red;
+}
+
+.buttons-area{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.operations{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+
+
+
+
+}
+
+.operator{
+    margin: 10px;
+
+}
+
+.numbers{
+    display: flex;
+    height: 300px;
+    width: 300px;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    align-self: center;
+    gap: 10px;
+
+
+
+    
+
+
+}
+
+.number{
+   
+    flex-basis: calc((100% - 2 * 10px) / 3);
+
+}
+
+#nine{
+    flex-basis: 100%
+}
